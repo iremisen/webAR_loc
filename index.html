@@ -26,15 +26,16 @@
                     src="assets/BobBlue.jpg"
                 ></a-asset-item> -->
             </a-assets>
-                <a-image id="pic-asset" src="assets/BobBlue.jpg" position="-0.75 .25 -2.5" rotation="25 0 0" scale="1 1 1"></a-image> <!---1 1 1 scale-->
+                <a-text class="box" value="Look closer for a word from Bob Blue" position="-1.2 1 0" rotation="0 0 0" scale=".3 .3 .3"></a-text> <!---65 0 0 , .3 .3 .3--> 
+                <a-image id="pic-asset" src="assets/BobBlue.jpg" position="-0.75 .25 -2.5" rotation="20 0 0" scale="1 1 1"></a-image> <!---1 1 1 scale-->
+                <!-- <a-text class="box" value="Look closer for a video on Sustainability" position="0 1.25 0" scale=".3 .3 .3"></a-text> -->
                 <a-entity
                     look-at="[gps-camera]"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
                     scale="0.20333286903849335 0.20333286903849335 0.20333286903849335"
                     gps-entity-place="latitude: 37.538192; longitude: -77.439973;"
-                    scale="2 2 2"
-                    position=".75 .5 -2"
+                    position=".75 .5 -.5"
                 ></a-entity>
 
             <a-camera gps-camera rotation-reader></a-camera>
